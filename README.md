@@ -136,7 +136,7 @@ containerized environments
 pipeline automation
 data quality validation
 
-Possible Extensions:
+Possible Extensions
 Future improvements could include:
 real-time ingestion pipelines
 streaming analytics
