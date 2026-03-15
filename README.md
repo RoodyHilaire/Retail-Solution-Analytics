@@ -119,27 +119,27 @@ Looker dashboards:
 ![Looker dashboard](screenshots/looker1.png)
 ![Looker dashboard](screenshots/looker2.png)
 
-Key Skills Demonstrated-
+### Key Skills Demonstrated
 Data Engineering:
-ETL / ELT pipeline design,
-workflow orchestration,
-SQL transformations,
-dimensional modeling (star schema)
+* ETL / ELT pipeline design
+* Workflow orchestration
+* SQL transformations
+* Dimensional modeling (star schema)
 
 Cloud Analytics:
-data lake architecture,
-cloud data warehouse design,
-analytics data marts
+* Data lake architecture
+* Cloud data warehouse design
+* Analytics data marts
 
 
 Platform Engineering:
-containerized environments,
-pipeline automation,
-data quality validation
+* Containerized environments
+* Pipeline automation
+* Data quality validation
 
 
-Possible Extensions-
+### Possible Extensions 
 Future improvements could include:
-real-time ingestion pipelines,
-streaming analytics,CI/CD pipeline deployment,
-machine learning models on warehouse data
+* real-time ingestion pipelines
+* streaming analytics,CI/CD pipeline deployment
+* machine learning models on warehouse data
