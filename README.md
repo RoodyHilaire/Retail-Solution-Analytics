@@ -109,14 +109,15 @@ Example Pipeline Execution
 Below are examples of the system in operation.
 
 Airflow DAG execution
-![Airflow Pipeline](Architecture/architecture.png)
+![Airflow Pipeline](screenshots/airflow.png)
 
 
 BigQuery warehouse schema:
-
+![Big query](screenshots/big_query_warehouse_schema.png)
 
 Looker dashboards:
-[View the full project presentation](screenshots/Two_Layer-Dashboard.pdf)
+![Looker dashboard](screenshots/looker1.png)
+![Looker dashboard](screenshots/looker2.png)
 
 Key Skills Demonstrated:
 Data Engineering:
