@@ -5,10 +5,10 @@ The pipeline extracts sales data from a PostgreSQL database, orchestrates workfl
 
 The orchestration environment runs locally using Docker containers.
 
-Architecture:
+## Architecture:
 The project follows a modern cloud data platform architecture including a data lake, dimensional data warehouse, and analytics data marts.
 
-Technologies used:
+## Technologies used:
 PostgreSQL – transactional source system,
 Apache Airflow – pipeline orchestration,
 Google Cloud Storage – raw data lake,
