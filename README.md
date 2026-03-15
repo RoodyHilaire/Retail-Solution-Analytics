@@ -54,7 +54,8 @@ top-performing products,
 profitability analysis,
 category trends
 
-Project Structure
+### Project Structure
+---
 retail-data-pipeline
 │
 ├── dags
