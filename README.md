@@ -8,46 +8,46 @@ The orchestration environment runs locally using Docker containers.
 ## Architecture:
 The project follows a modern cloud data platform architecture including a data lake, dimensional data warehouse, and analytics data marts.
 
-## Technologies used:
-PostgreSQL – transactional source system,
-Apache Airflow – pipeline orchestration,
-Google Cloud Storage – raw data lake,
-Google BigQuery – analytical warehouse,
-Looker – analytics dashboards,
-Docker – containerized execution
+### Technologies used:
+* PostgreSQL – transactional source system
+* Apache Airflow – pipeline orchestration
+* Google Cloud Storage – raw data lake
+* Google BigQuery – analytical warehouse
+* Looker – analytics dashboards
+* Docker – containerized execution
 
-Data Pipeline Overview:
+### Data Pipeline Overview:
 The pipeline processes retail transaction data through several layers.
 
-Source Layer:
+* Source Layer:
 Transactional sales data is stored in PostgreSQL.
 Each row represents a product within an order.
 
-Orchestration:
+* Orchestration:
 Airflow DAGs automate the complete pipeline including ingestion, transformations, and data quality checks.
 
-Data Lake:
+* Data Lake:
 Raw data extracted from PostgreSQL is stored in Google Cloud Storage as CSV files.
 This layer preserves the raw dataset and decouples the source system from the warehouse.
 
-Data Warehouse:
+* Data Warehouse:
 Data is loaded into BigQuery where transformations create a dimensional model.
 
 The warehouse follows a star schema design including:
-Fact table:
+-Fact table:
 fact_sales
 
-Dimension tables:
+-Dimension tables:
 dim_customer
 dim_product
 dim_date
 
-Data Marts:
+* Data Marts:
 Analytics-ready tables are built for business use cases such as
-executive performance tracking,
-product performance analysis
+-executive performance tracking
+-product performance analysis
 
-Visualization:
+* Visualization:
 Looker dashboards provide interactive analytics including
 sales KPIs,
 top-performing products,
