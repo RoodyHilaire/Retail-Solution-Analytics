@@ -34,17 +34,16 @@ This layer preserves the raw dataset and decouples the source system from the wa
 Data is loaded into BigQuery where transformations create a dimensional model.
 
 The warehouse follows a star schema design including:
--Fact table:
-fact_sales
-
--Dimension tables:
-dim_customer
-dim_product
-dim_date
+    -Fact table:
+    fact_sales
+    
+    -Dimension tables:
+    dim_customer,
+    dim_product,
+    and dim_date
 
 * Data Marts:
-Analytics-ready tables are built for business use cases such as
--executive performance tracking
+Analytics-ready tables are built for business use cases such as executive performance tracking and
 -product performance analysis
 
 * Visualization:
