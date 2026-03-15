@@ -139,7 +139,6 @@ data quality validation
 
 
 Possible Extensions-
-
 Future improvements could include:
 real-time ingestion pipelines,
 streaming analytics,CI/CD pipeline deployment,
