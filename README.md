@@ -55,7 +55,7 @@ profitability analysis,
 category trends
 
 ### Project Structure
----
+```
 retail-data-pipeline
 │
 ├── dags
@@ -82,6 +82,7 @@ retail-data-pipeline
 │   └── looker_dashboard_product.png
 │
 └── README.md
+```
 
 Pipeline Orchestration:
 The pipeline is controlled by a master Airflow DAG, sales_master_pipeline, that triggers several sub-pipelines.
