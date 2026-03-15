@@ -9,11 +9,11 @@ Architecture:
 The project follows a modern cloud data platform architecture including a data lake, dimensional data warehouse, and analytics data marts.
 
 Technologies used:
-PostgreSQL – transactional source system
-Apache Airflow – pipeline orchestration
-Google Cloud Storage – raw data lake
-Google BigQuery – analytical warehouse
-Looker – analytics dashboards
+PostgreSQL – transactional source system,
+Apache Airflow – pipeline orchestration,
+Google Cloud Storage – raw data lake,
+Google BigQuery – analytical warehouse,
+Looker – analytics dashboards,
 Docker – containerized execution
 
 Data Pipeline Overview:
@@ -43,16 +43,16 @@ dim_product
 dim_date
 
 Data Marts:
-Analytics-ready tables are built for business use cases such as:
--executive performance tracking
--product performance analysis
+Analytics-ready tables are built for business use cases such as
+executive performance tracking,
+product performance analysis
 
 Visualization:
-Looker dashboards provide interactive analytics including:
--sales KPIs
--top-performing products
--profitability analysis
--category trends
+Looker dashboards provide interactive analytics including
+sales KPIs,
+top-performing products,
+profitability analysis,
+category trends
 
 Project Structure
 retail-data-pipeline
@@ -82,19 +82,19 @@ retail-data-pipeline
 │
 └── README.md
 
-Pipeline Orchestration
-The pipeline is controlled by a master Airflow DAG that triggers several sub-pipelines.
-sales_master_pipeline
+Pipeline Orchestration:
+The pipeline is controlled by a master Airflow DAG, sales_master_pipeline, that triggers several sub-pipelines.
+
 
 This master pipeline orchestrates:
--sales_pipeline_raw
--sales_pipeline_core
--sales_pipeline_marts
--data_quality_checks
+sales_pipeline_raw,
+sales_pipeline_core,
+sales_pipeline_marts,
+data_quality_checks
 
 Each pipeline represents a logical stage of the data platform.
 
-Running the Project
+Running the Project:
 The orchestration environment is containerized.
 
 Start the system using Docker Compose:
@@ -105,10 +105,10 @@ The Airflow UI is available at:
 http://localhost:8080
 
 From the interface you can trigger the master pipeline.
-Example Pipeline Execution
+Example Pipeline Execution:
 Below are examples of the system in operation.
 
-Airflow DAG execution
+Airflow DAG execution:
 ![Airflow Pipeline](screenshots/airflow.png)
 
 
@@ -119,26 +119,26 @@ Looker dashboards:
 ![Looker dashboard](screenshots/looker1.png)
 ![Looker dashboard](screenshots/looker2.png)
 
-Key Skills Demonstrated:
+Key Skills Demonstrated-
 Data Engineering:
-ETL / ELT pipeline design
-workflow orchestration
-SQL transformations
+ETL / ELT pipeline design,
+workflow orchestration,
+SQL transformations,
 dimensional modeling (star schema)
 
 Cloud Analytics:
-data lake architecture
-cloud data warehouse design
+data lake architecture,
+cloud data warehouse design,
 analytics data marts
 
 Platform Engineering:
-containerized environments
-pipeline automation
+containerized environments,
+pipeline automation,
 data quality validation
 
-Possible Extensions
+Possible Extensions-
 Future improvements could include:
-real-time ingestion pipelines
-streaming analytics
-CI/CD pipeline deployment
+real-time ingestion pipelines,
+streaming analytics,
+CI/CD pipeline deployment,
 machine learning models on warehouse data
