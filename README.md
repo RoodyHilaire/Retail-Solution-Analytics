@@ -34,10 +34,11 @@ This layer preserves the raw dataset and decouples the source system from the wa
 Data is loaded into BigQuery where transformations create a dimensional model.
 
 The warehouse follows a star schema design including:
-    -Fact table:
+    
+    Fact table:
     fact_sales
     
-    -Dimension tables:
+    Dimension tables:
     dim_customer,
     dim_product,
     and dim_date
