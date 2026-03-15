@@ -116,7 +116,7 @@ BigQuery warehouse schema:
 
 
 Looker dashboards:
-![Looker dashboard](screenshots/Two_Layer-Dashboard.pdf)
+[View the full project presentation](screenshots/Two_Layer-Dashboard.pdf)
 
 Key Skills Demonstrated:
 Data Engineering:
