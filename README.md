@@ -127,18 +127,29 @@ SQL transformations,
 dimensional modeling (star schema)
 
 Cloud Analytics:
+
 data lake architecture,
+
 cloud data warehouse design,
+
 analytics data marts
 
+
 Platform Engineering:
+
 containerized environments,
+
 pipeline automation,
+
 data quality validation
 
+
 Possible Extensions-
+
 Future improvements could include:
+
 real-time ingestion pipelines,
+
 streaming analytics,
 CI/CD pipeline deployment,
 machine learning models on warehouse data
