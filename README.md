@@ -110,8 +110,13 @@ Below are examples of the system in operation.
 
 Airflow DAG execution
 ![Airflow Pipeline](Architecture/architecture.png)
-BigQuery warehouse schema
-Looker dashboards
+
+
+BigQuery warehouse schema:
+
+
+Looker dashboards:
+![Looker dashboard](Two_Layer-Dashboard.pdf)
 
 Key Skills Demonstrated:
 Data Engineering:
