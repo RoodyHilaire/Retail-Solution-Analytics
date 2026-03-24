@@ -45,7 +45,7 @@ The warehouse follows a star schema design including:
 
 * Data Marts:
 Analytics-ready tables are built for business use cases such as executive performance tracking and
--product performance analysis
+product performance analysis
 
 * Visualization:
 Looker dashboards provide interactive analytics including
@@ -107,6 +107,7 @@ The Airflow UI is available at:
 http://localhost:8080
 
 From the interface you can trigger the master pipeline.
+
 Example Pipeline Execution:
 Below are examples of the system in operation.
 
